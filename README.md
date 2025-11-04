@@ -21,16 +21,25 @@ Hypothesis: By analyzing competitor data (Airbnb), we can identify underserved l
 - Strategic Planning: Propose actionable plans to enhance host engagement and platform adoption.
 
 ## Dataset
-**Source:**  Inside Airbnb (Tokyo, Kantō, Japan)
-**Date:** June 27, 2025
-**Files:**
--listings.csv: Detailed listings data with prices, locations, amenities, etc.
--calendar.csv: Historical availability and pricing data (if used for occupancy calculation).
--reviews.csv: Customer review data (if used for sentiment analysis).
+- **Source:** Inside Airbnb - Tokyo, Japan
+- **Date:** June 27, 2025
+- **Files:** listings.csv, calendar.csv, reviews.csv
 
 ## Methodology
-Data Processing and Analysis (Python)
-We used Python (Pandas, NumPy, Matplotlib, Seaborn) for exploratory data analysis (EDA) and modeling:
-Data Cleaning: Handled missing values, outliers, and standardized formats using if-elif logic and custom functions (def).
-Feature Engineering: Merged datasets (pd.merge), grouped by location/amenities (groupby), and calculated metrics like occupancy rate.
-Visualization: Generated charts for trends (e.g., price vs. amenities scatter plots, heatmaps for neighborhood demand).
+Data Analysis (Python)
+Employed Python with Pandas, NumPy, Matplotlib, and Seaborn for EDA and modeling:
+- Cleaning & Prep: Managed nulls/outliers via conditional logic (if-elif) and custom functions (def).
+- Manipulation: Aggregated data (groupby), integrated datasets (merge), and engineered features like amenity scores.
+- Visualization: Created trend charts (e.g., occupancy vs. amenities) and geospatial maps.
+
+## Role & Contributions
+In my capacity as project manager and presentation lead:
+- Managed timelines and team deliverables.
+- Crafted visuals in Canva for final_presentation.pdf, highlighting amenity-occupancy links via infographics.
+- Spearheaded amenity analysis, finding premium features (e.g., gym/pool) yield 20% higher bookings.
+- Contributed to the strategic plan, proposing host perks like commission rebates.
+
+## Key Learnings
+- Python Proficiency: Mastered groupby, merge, function definitions (def), conditional flows (if-elif), and chart scripting.
+- Power BI Expertise: Quick dashboard builds, DAX querying, and conversational analytics.
+- Professional Growth: Enhanced PM skills, visualization storytelling, and collaborative analysis.
